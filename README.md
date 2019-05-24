@@ -161,6 +161,8 @@ chown -R 1000:1000 ~/ssb-pub-data
 >
 > ```
 > rsync -avz ~/ssb-pub-data/blobs/sha256/ $HOST:~/ssb-pub-data/blobs/sha256/
+# Remember to set the permissions on the newly copied files
+chown -R 1000:1000 ~/ssb-pub-data
 > ```
 
 #### step 2. setup ssb config
